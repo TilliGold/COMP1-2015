@@ -41,12 +41,12 @@ This is done by providing the program with responses in the form of co-ordinates
 Attempt the **exercises** below.
 
 ---
-1. **Explain** what happens when a piece is moved off the **right-hand** edge of the board.
-2. **Explain** what happens when a piece is move off the **left-hand** edge of the board.
-3. **Explain** what happens when a piece is moved off the **top** edge of the board.
-4. **Explain** what happens when a piece is moved off the **bottom** edge of the board.
-5. **Explain** any differences you encountered whilst attempting the above questions (1-4).
-6. **Identify** the function responsible for validating whether a move is acceptable or not.
+1. **Explain** what happens when a piece is moved off the **right-hand** edge of the board. **An 'Index out of range' error occurs.**
+2. **Explain** what happens when a piece is move off the **left-hand** edge of the board. **The piece is moved, but is not visible on the new board.**
+3. **Explain** what happens when a piece is moved off the **top** edge of the board. **The piece is moved, but it is not visible on the new board.**
+4. **Explain** what happens when a piece is moved off the **bottom** edge of the board. **An 'Index out of range' error occurs.**
+5. **Explain** any differences you encountered whilst attempting the above questions (1-4). **If the input coordinates are off of either the left or right of the board than the piece is moved, although it is not visible on the newly outputted board.**
+6. **Identify** the function responsible for validating whether a move is acceptable or not. **CheckMoveIsLegal**
 7. **Improve** the function identified in question 6 so that an appropriate message is displayed if the move is not valid. The user should then be prompted to reenter the co-ordinates of the move.
 
     This message might look like the following:
