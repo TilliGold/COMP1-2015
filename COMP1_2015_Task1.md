@@ -52,6 +52,10 @@ Attempt the **exercises** below.
     This message might look like the following:
 
     ![](images/board_move_message.png)
+    
+![](https://www.dropbox.com/s/7zd4lcsrkr9paz9/try%20again.PNG?dl=1) **Code for function CheckMoveIsLegal**
+
+![](https://www.dropbox.com/s/3ussecg06yhmggt/try%20again%202.PNG?dl=1) **Code in main program**
 
 ---
 
