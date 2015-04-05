@@ -53,9 +53,13 @@ Attempt the **exercises** below.
 
     ![](images/board_move_message.png)
     
-![](https://www.dropbox.com/s/7zd4lcsrkr9paz9/try%20again.PNG?dl=1) **Code for function CheckMoveIsLegal**
+**Code for function CheckMoveIsLegal**
 
-![](https://www.dropbox.com/s/3ussecg06yhmggt/try%20again%202.PNG?dl=1) **Code in main program**
+![](https://www.dropbox.com/s/7zd4lcsrkr9paz9/try%20again.PNG?dl=1)
+
+**Code in main program**
+
+![](https://www.dropbox.com/s/3ussecg06yhmggt/try%20again%202.PNG?dl=1)
 
 ---
 
@@ -69,7 +73,7 @@ In addition, if you attempt to enter an **erroneous** value the program currentl
 Attempt the **exercises** below.
 
 ---
-1. **Identify** the function responsible for getting the move from the user.
+1. **Identify** the function responsible for getting the move from the user. **GetMove**
 2. **Improve** this function so that the start and end positions are validated separately. This means that an appropriate error message should be displayed as soon as invalid data has been entered:
 
     ![](images/rank_file_feedback.png)
