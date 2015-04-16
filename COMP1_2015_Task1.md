@@ -41,25 +41,17 @@ This is done by providing the program with responses in the form of co-ordinates
 Attempt the **exercises** below.
 
 ---
-1. **Explain** what happens when a piece is moved off the **right-hand** edge of the board. **An 'Index out of range' error occurs.**
-2. **Explain** what happens when a piece is move off the **left-hand** edge of the board. **The piece is moved, but is not visible on the new board.**
-3. **Explain** what happens when a piece is moved off the **top** edge of the board. **The piece is moved, but it is not visible on the new board.**
-4. **Explain** what happens when a piece is moved off the **bottom** edge of the board. **An 'Index out of range' error occurs.**
-5. **Explain** any differences you encountered whilst attempting the above questions (1-4). **If the input coordinates are off of either the left or right of the board than the piece is moved, although it is not visible on the newly outputted board.**
-6. **Identify** the function responsible for validating whether a move is acceptable or not. **CheckMoveIsLegal**
+1. **Explain** what happens when a piece is moved off the **right-hand** edge of the board. 
+2. **Explain** what happens when a piece is move off the **left-hand** edge of the board. 
+3. **Explain** what happens when a piece is moved off the **top** edge of the board.
+4. **Explain** what happens when a piece is moved off the **bottom** edge of the board. 
+5. **Explain** any differences you encountered whilst attempting the above questions (1-4). 
+6. **Identify** the function responsible for validating whether a move is acceptable or not. 
 7. **Improve** the function identified in question 6 so that an appropriate message is displayed if the move is not valid. The user should then be prompted to reenter the co-ordinates of the move.
 
     This message might look like the following:
 
     ![](images/board_move_message.png)
-    
-**Code for function CheckMoveIsLegal**
-
-![](https://www.dropbox.com/s/7zd4lcsrkr9paz9/try%20again.PNG?dl=1)
-
-**Code in main program**
-
-![](https://www.dropbox.com/s/3ussecg06yhmggt/try%20again%202.PNG?dl=1)
 
 ---
 
@@ -73,7 +65,7 @@ In addition, if you attempt to enter an **erroneous** value the program currentl
 Attempt the **exercises** below.
 
 ---
-1. **Identify** the function responsible for getting the move from the user. **GetMove**
+1. **Identify** the function responsible for getting the move from the user.
 2. **Improve** this function so that the start and end positions are validated separately. This means that an appropriate error message should be displayed as soon as invalid data has been entered:
 
     ![](images/rank_file_feedback.png)
@@ -137,7 +129,7 @@ The presentation of the game board is currently not very good. It would be helpf
 Attempt the **exercises** below.
 
 ---
-1. **Identify** the function where the board is generated to be displayed. **DisplayBoard(Board)**
+1. **Identify** the function where the board is generated to be displayed.
 2. **Amend** this function so that the board closely resembles the one in the screenshot above.
 
 ---
@@ -149,16 +141,6 @@ Section B of the COMP1 exam focuses on your understanding of the program source 
 
 ---
 1. Describe each variable role in **your own words**.
-
-|**Variable role**|**Description**|
-|-----------------|---------------|
-|Fixed value|A variable initialised with ay calculation and without being changed (eg remembering the number of array elements in use).|
-|Stepper|A variable going through a series of systematic, predictable values (eg during iteration a variable used to keep pcount of a number of repetiitions).|
-|Most recent holder|A variable holding the latest value encountered when processing a series of unpredictable values or the latest value obtained as input.|
-|Gatherer|A variable accumulating the effect of individual values (eg when calculates a new set of values, it keeps a running total of all values added so far).|
-|Transformation|A variable that always gets its ew value from a fixed calculation of values of other variables (eg storing the result of a measurement conversion).|
-|Follower|A variable that gets its new value from the old value of another data item.|
-|Temporary|A variable holding some value for a short time only.|
 
 2. Give an example of variable from the program code for each variable role (if possible).
 
@@ -181,7 +163,7 @@ The AS textbook has a good section on passing by value and passing by reference 
 **Answer** the following questions.
 
 ---
-1. Describe the difference between passing by value and passing by reference in **your own words**. **Passing by value is where a copy of the original value of the variable is stored in memory, whereas passing by reference is where the actual value of the variable is stored in memory.**
+1. Describe the difference between passing by value and passing by reference in **your own words**. 
 2. For each function in the program identify the mechanism using to pass each parameter. **Note**: this task will take a while but it will improve your understanding of the program and by useful for the exam.
 
 ---
